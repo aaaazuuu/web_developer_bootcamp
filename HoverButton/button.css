@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: no-repeat url("https://images.unsplash.com/photo-1739382121077-7a20fed13566?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover;
+    margin: 0 auto;
+    position: relative; /*親要素に対してrelativeを設定*/
+    font-family: "Ballet", cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/*section{*/
+/*    width: 95%;*/
+/*    height: 95%;*/
+    /*background-image: url("https://images.unsplash.com/photo-1739382121077-7a20fed13566?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background: no-repeat url("https://images.unsplash.com/photo-1739382121077-7a20fed13566?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center/cover;*/
+    /*margin: 0 auto;*/
+    /*color: #f1faee;*/
+    /*font-size: 10px;*/
+    /*position: relative; !*親要素に対してrelativeを設定*!*/
+/*}*/
+header{
+    color: #f1faee;
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+
+section{
+    color: #f1faee;
+}
+
+button{
+    color: #ffffff;
+    border: thick #50bcf6 solid;
+    border-radius: 2em;
+    background-color: transparent;
+    font-family: fantasy;
+    font-size: 2em;
+    padding: 1.5em;
+    transition: 0.5s;
+    position: absolute; /*子要素として位置を決定*/
+    bottom: 10px;
+    left: 10px;
+}
+
+button:hover {
+    border-color: #adff3e;
+    color: #f1faee;
+    box-shadow: 10px 5px 5px #adff3e;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}

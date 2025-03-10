@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form demo</title>
+</head>
+<body>
+    <h1>Form demo</h1>
+    <form action="/tacos/"><!-- actionは送信先のURLを指定する このに送るかを指定するだけ -->
+        <button type="button">送信1</button> <!-- buttonはformのactionのURLに飛ぶ -->
+        <p>
+        <label for="username">ユーザー名：</label> <!-- labelはフォームのラベルを指定する -->
+        <input type="text" placeholder="Enter your name" id="username" name="username"> <!-- inputはフォームの入力欄を指定する -->
+        </p>
+        <button>送信2</button>
+        <p>
+        <label for="password">パスワード：</label>
+        <input type="password" placeholder="Enter your password" id="password" name="password"> <!-- name属性でURLの名前を変更して、サーバーに送る名前を決定-->
+        </p>
+        <button>送信3</button>
+        <label for="color">好きな色：</label>
+        <input type="color" id="color" name="color">
+        <p>
+        <label>好きな数字：
+            <input type="number" name="number" step="10">
+        </label>
+        </p>
+        <p>
+        <input type="time" name="time">
+        </p>
+        <button>送信4</button>
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results"> <!-- action属性で送信先のURLを指定する -->
+        <input type="text" name="search_query"> <!-- name属性でURLの名前を変更して、サーバーに送る名前を決定-->
+        <button>youtubeへ</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>googleへ</button>
+    </form>
+
+    <h2>続・Input!!</h2>
+    <hr>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">利用規約に同意します</label>
+        <p>
+            <button>送信</button>
+        </p>
+
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs"> <!-- radioは同じname属性を持つものは1つしか選択できない -->
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s"> <!-- idはラベル付け用・valueはサーバー送信した際にname属性=””の””の名前を指定する用(formに送信する値) -->
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+
+        <p>
+            <button>送信</button>
+        </p>
+        <p>
+            <label for="meal">食事を選択してください</label>
+            <select name="meal" id="meal">
+                <option value="fish">焼き魚</option>
+                <option value="meat">肉</option>
+                <option value="salad" selected>野菜</option>
+            </select>
+        </p>
+        <p>
+            <button>送信</button>
+        </p>
+        <p>
+            <label for="cheese">チーズの量：</label>
+            <input type="range" id="cheese" min="0" max="10" name="cheese_level">
+        </p>
+        <p>
+            <button>送信</button>
+        </p>
+        <p>
+            <label for="comments">その他コメント：</label>
+            <br>
+            <textarea id="comments" rows="10" cols="100" placeholder="コメントを入力してください"></textarea> <!-- textareaは複数行のテキストを入力するためのフォーム -->
+        </p>
+    </form>
+
+    <h2>バリデーション Demo</h2>
+    <form action="/dummy">
+        <label for="first">名前：</label>
+        <input type="text" id="first" name="first" required> <!-- required属性で必須項目にする -->
+        <p>
+            <label for="user">ユーザー名：</label>
+            <input type="text" id="user" name="username" minlength="5" maxlength="10"> <!-- minlength属性で最小文字数を指定する -->
+        </p>
+        <p>
+            <label for="email">メールアドレス：</label>
+            <input type="email" id="email" name="email" required> <!-- email属性でメールアドレスの形式にする -->
+        </p>
+        <button>送信</button>
+    </form>
+</body>
+</html>

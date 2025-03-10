@@ -1,0 +1,105 @@
+/**{*/
+/*    color: red; !*ユニバーサルセレクター*!*/
+/*    background-color: brown;*/
+/*}*/
+
+body{
+    background-color: #f1faee;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: black;
+}
+
+button{
+    font-size: 30px;
+    background-color: aqua;
+}
+
+h1,h2{
+    color: brown;
+}
+
+#signup{
+    color: #f1faee;
+    background-color: red; /*idセレクタとして取得するには＃を付ける*/
+}
+
+span{
+    color: black;
+}
+
+/*クラスセレクターは．を付ける*/
+.tag{
+    color: #f1faee;
+    background-color: red;
+    font-size: 20px;
+}
+
+/*子孫セレクター*/
+ul a {
+    color: black;
+}
+
+.free a {
+    color: gold;
+}
+
+/*h2の直後のbuttonをさす　隣接セレクター*/
+h2 + button{
+    background-color: blueviolet;
+}
+
+/*属性を選択可能　属性セレクタ*/
+input[type="password"]{
+    color: blue;
+}
+
+/*疑似クラス ：選択された際のデザインなどを決めるやつ*/
+/*要素の特定の状態を指定出来る*/
+button:hover{
+    background-color: red;
+    color: blue;
+}
+
+button:active{
+    background-color: #f1faee;
+}
+
+a:hover{
+    text-decoration: blue underline;
+}
+
+footer > input[type="radio"]:checked + label{
+    color: red;
+}
+
+footer > input[type="radio"]:checked{
+    box-shadow: 0 0 0 3px red;
+
+}
+
+/*h2の上から２番目毎に適応*/
+h2:nth-of-type(2n){
+    background-color: gold;
+}
+
+/*疑似要素*/
+/*セレクターに付加するキーワードで選択された特定の部分にスタイル付け出来る*/
+h2::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    color: #ce0eff;
+}
+
+/*選択している箇所の設定*/
+::selection{
+    color: red;
+    background-color: black;
+}

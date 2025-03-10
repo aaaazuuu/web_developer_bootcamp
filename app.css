@@ -1,0 +1,39 @@
+h2{
+    color: #25d3d3;
+    background-color: rgb(1, 89, 1);
+    font-weight: normal;
+    text-align: center;
+    text-decoration: red underline wavy;
+    font-size: 50px;
+    font-family: Impact, Serif, Arial, sans-serif;
+}
+
+
+a{
+    text-decoration: none; /*アンカータグの下線を消す*/
+}
+
+div{
+    text-align: center; /*textの位置を真ん中にする*/
+}
+
+button{
+    color: brown;
+    background-color: #25d3d3;
+    border-color: bisque;
+    font-size: 20px;
+}
+
+p{
+    color: #ce0eff;
+    background: #adff3e;
+    font-weight: bold;
+    line-height: 2; /*文字のサイズの2倍の高さにする*/
+    letter-spacing: 10px; /*文字間の隙間の大きさを決める*/
+    font-family: Serif, sans-serif; /*フォントあるいは総称ファミリを指定する（基本最後に総称ファミリ指定する）*/
+}
+
+body{
+    background-color: #000;
+}
+

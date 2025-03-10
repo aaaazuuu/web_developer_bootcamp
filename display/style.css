@@ -1,0 +1,62 @@
+html{
+    font-size: 10px;
+}
+
+.fordisplay{
+    height: 100px;
+    width: 100px;
+    background-color: #adff3e;
+    border: 5px black solid;
+    display: inline-block; /*インライン要素ようにブロック用を扱う方法*/
+    margin: 50px;
+}
+
+span{
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+}
+
+section {
+    width: 300px;
+    height:500px;
+    background-color: #ce0eff;
+}
+
+#forunit{
+    width: 50%; /*親要素の５０％*/
+    height: 50%;
+    background-color: black;
+}
+
+#cssunit{
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%; /*その要素自体のフォントサイズの２倍のサイズでパディング作る*/
+}
+
+h2{
+    font-size: 2em; /*親要素のフォントサイズを基準として２倍（親はarticle）*/
+    margin-left: 1em; /*自分のフォントサイズを基準とする*/
+}
+
+p{
+    font-size: 1em;
+}
+
+article{
+    font-size: 50px;
+}
+
+button{
+    font-size: 1em; /*フォントサイズだけはarticleを親としている*/
+    padding: 0 1em;
+    border-radius: 0.5em;
+    background-color: #ce0eff;
+    color: #f1faee;
+}
+
+ul{
+    font-size: 1.5em;
+}
+
