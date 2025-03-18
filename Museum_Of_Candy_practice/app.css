@@ -1,0 +1,18 @@
+body{
+    background-color: lightcoral;
+}
+
+span{
+    color: red;
+}
+
+div{
+    color: pink;
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
+
+h1{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-size: 3em;
+}
