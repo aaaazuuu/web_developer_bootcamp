@@ -5,36 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210d61f2-bf53-4d3a-a3b0-4e1ecc08576d" name="Changes" comment="bootstrap学習終了">
-      <change afterPath="$PROJECT_DIR$/BOOTSTRAP/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOOTSTRAP/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOOTSTRAP/index_bootstrap_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BOOTSTRAP/index_bootstrap_gridsystem.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Final/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Final/imgs/gumball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Final/imgs/hand2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Final/imgs/lolli_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Final/imgs/milk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Final/imgs/sprinkles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Final/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Starter/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Starter/imgs/gumball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Starter/imgs/hand2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Starter/imgs/lolli_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Starter/imgs/milk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Starter/imgs/sprinkles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy/Starter/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy_practice/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy_practice/imgs/cakes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy_practice/imgs/macarons.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy_practice/imgs/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy_practice/imgs/marbles.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy_practice/imgs/snikers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Museum_Of_Candy_practice/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriceTableStarter/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriceTableStarter/icons/Alarm-Bell-Cog-Setting--Streamline-Ultimate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriceTableStarter/icons/Atomic-Bomb--Streamline-Ultimate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriceTableStarter/icons/Gauge-Dashboard-1--Streamline-Ultimate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriceTableStarter/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_HigherOrderFunctions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_HigherOrderFunctions/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_ToDo_app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_ToDo_app/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_features_code/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_features_code/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_function/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_function/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_quizgame/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_quizgame/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_roop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS_basic_roop/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +61,9 @@
     &quot;accountId&quot;: &quot;91a0b923-d27e-483a-9ac6-b0ce08816d5a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -93,15 +81,16 @@
     "JavaScript Debug.CSS_practice_inheritance.html.executor": "Debug",
     "JavaScript Debug.about.html.executor": "Debug",
     "JavaScript Debug.chickens.html.executor": "Debug",
-    "JavaScript Debug.display.html.executor": "Debug",
+    "JavaScript Debug.display.html.executor": "Run",
     "JavaScript Debug.forms.html.executor": "Debug",
     "JavaScript Debug.index.html.executor": "Run",
     "JavaScript Debug.index_bootstrap_form.html.executor": "Run",
     "JavaScript Debug.index_bootstrap_gridsystem.html.executor": "Run",
     "JavaScript Debug.table.html.executor": "Debug",
+    "Node.js.script.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "develop__2",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "C:/workspace/web_developer_bootcamp/Museum_Of_Candy_Anser",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
@@ -172,6 +161,31 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
